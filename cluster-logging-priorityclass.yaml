@@ -1,0 +1,6 @@
+apiVersion: scheduling.k8s.io/v1beta1
+description: This priority class for the Cluster-Logging Fluentd Application
+kind: PriorityClass
+metadata:
+  name: cluster-logging
+value: 100000
